@@ -12,7 +12,7 @@
   }
   // Node.js
   else if (typeof exports === 'object') {
-    module.exports = factory({}, window.angular, window.Intercom);
+    module.exports = factory(window, window.angular, window.Intercom);
   }
   // Angular
   else if (angular) {
